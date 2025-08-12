@@ -4,7 +4,7 @@ import google.generativeai as genai
 st.title("Gemini real")
 
 # Thiết lập Gemini API key
-genai.configure(api_key=st.secrets["gemini_api_key"])
+genai.configure(api_key="AIzaSyBi43oTeMx0mCIpqrAH_8J7SqVkSnV1UHg")
 
 # Khởi tạo mô hình
 if "gemini_model" not in st.session_state:
