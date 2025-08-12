@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.title("Gemini-like clone")
+st.title("Gemini real")
 
 # Thiết lập Gemini API key
 genai.configure(api_key="AIzaSyBi43oTeMx0mCIpqrAH_8J7SqVkSnV1UHg")
