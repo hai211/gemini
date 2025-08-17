@@ -4,7 +4,7 @@ import google.generativeai as genai
 st.title("Gemini-like clone")
 
 # Thiết lập Gemini API key
-genai.configure(api_key="api-key")
+genai.configure(api_key="AIzaSyAbhIDJRT1d48uJsQ0pXA-HDgUWltcw8lc")
 
 # Khởi tạo mô hình
 if "gemini_model" not in st.session_state:
